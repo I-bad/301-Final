@@ -1,0 +1,46 @@
+﻿  AssetManager.cpp
+  AudioManager.cpp
+  FPS.cpp
+  SpaceShip.cpp
+  Collision.cpp
+  EnetClient.cpp
+  Engine.cpp
+  GameState.cpp
+  InputManager.cpp
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(8): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(8): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  Laser.cpp
+  LevelEditor.cpp
+  main.cpp
+  MainMenuState.cpp
+  Asteroid.cpp
+c:\users\ibadu\desktop\301\framework\framework\asteroid.cpp(13): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  StateMachine.cpp
+  Generating Code...
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(38): warning C4715: 'InputManager::ClickedR': not all control paths return a value
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(45): warning C4715: 'InputManager::ClickedL': not all control paths return a value
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(31): warning C4715: 'InputManager::ClickedD': not all control paths return a value
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(52): warning C4715: 'InputManager::ClickedS': not all control paths return a value
+c:\users\ibadu\desktop\301\framework\framework\inputmanager.cpp(24): warning C4715: 'InputManager::ClickedU': not all control paths return a value
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Framework.vcxproj -> C:\Users\ibadu\Desktop\301\Framework\x64\Debug\Framework.exe
